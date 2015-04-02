@@ -1,6 +1,6 @@
 {
   "name": "normalize-license-data",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "clean up licenses from package.json files and the npm registry",
   "main": "index.js",
   "scripts": {
