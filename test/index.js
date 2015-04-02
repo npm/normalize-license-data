@@ -4,7 +4,7 @@ var mocha = require('mocha')
 var describe = mocha.describe
 var it = mocha.it
 
-describe('normalize-license', function () {
+describe('normalize-license-data', function () {
   it('returns null for null values', function () {
     expect(normalize(null)).to.equal(null)
   })

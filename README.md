@@ -1,4 +1,4 @@
-# normalize-license 
+# normalize-license-data 
 
 clean up licenses from package.json files and the npm registry
 
@@ -7,13 +7,13 @@ clean up licenses from package.json files and the npm registry
 Download node at [nodejs.org](http://nodejs.org) and install it, if you haven't already.
 
 ```sh
-npm install normalize-license --save
+npm install normalize-license-data --save
 ```
 
 ## Usage
 
 ```js
-var normalize = require("normalize-license")
+var normalize = require("normalize-license-data")
 
 normalize(null)
 // -> null
