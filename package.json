@@ -1,0 +1,38 @@
+{
+  "name": "normalize-license",
+  "version": "1.0.0",
+  "description": "clean up licenses from package.json files and the npm registry",
+  "main": "index.js",
+  "scripts": {
+    "readme": "package-json-to-readme package.json > README.md",
+    "pretest": "npm run readme",
+    "test": "standard --format && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/normalize-license.git"
+  },
+  "keywords": [
+    "license",
+    "npm",
+    "normalize"
+  ],
+  "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/npm/normalize-license/issues"
+  },
+  "homepage": "https://github.com/npm/normalize-license",
+  "devDependencies": {
+    "code": "^1.4.0",
+    "mocha": "^2.2.1",
+    "package-json-to-readme": "^1.4.1",
+    "standard": "^3.3.1"
+  },
+  "dependencies": {
+    "is_js": "^0.7.3",
+    "lodash.clone": "^3.0.1",
+    "oss-license-name-to-url": "^1.1.0",
+    "schemeless": "^1.1.1"
+  }
+}
