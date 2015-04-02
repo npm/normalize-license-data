@@ -1,8 +1,7 @@
+/* global describe, it */
+
 var normalize = require('..')
 var expect = require('code').expect
-var mocha = require('mocha')
-var describe = mocha.describe
-var it = mocha.it
 
 describe('normalize-license-data', function () {
   it('returns null for null values', function () {
