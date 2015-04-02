@@ -32,7 +32,7 @@
   "dependencies": {
     "is_js": "^0.7.3",
     "lodash.clone": "^3.0.1",
-    "oss-license-name-to-url": "^1.1.0",
+    "oss-license-name-to-url": "^1.2.0",
     "schemeless": "^1.1.1"
   }
 }
